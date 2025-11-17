@@ -1,0 +1,54 @@
+/* *{
+    outline: 1px solid red;
+} */
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+.contact-page{
+    height: 100vh;
+    width: 100%;
+    color: white;
+    text-align: center;
+
+}
+.upper-section{
+    height: 10%;
+    background-color: #3E4750;
+}
+.middle{
+    height: 40%;
+   background: url(images/contact-bg.webp);
+}
+.bottom{
+    padding-top: 50px;
+    height: 50%;
+    background-color: #3E4750;
+}
+.contact-deatils{
+    padding: 30px 50px 50px;
+    height: 70%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+#title-contact{
+    text-align: center;
+}
+.details{
+    /* max-width: 20vw; */
+    margin-top: 20px;
+     font-family: 'Helvetica', 'Arial', sans-serif;
+font-weight: bold;
+letter-spacing: 1px;
+
+}
+.details :hover {
+  transform: scale(1.1);
+  color: #E1306C; 
+}
+.insta-link{
+    position: relative;
+    top: 20px;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}

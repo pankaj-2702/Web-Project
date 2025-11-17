@@ -1,0 +1,86 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=BBH+Sans+Bogle&family=Cedarville+Cursive&family=Edu+NSW+ACT+Cursive:wght@400..700&display=swap');
+.one{
+    height: 100vh;
+    width: 100%;
+    color: #fff;
+    display: flex;
+}
+.left-section{
+    height: 100vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color:#ccd5ae ; */
+    position: relative;
+}
+.right-section{
+  width: 50%;
+  background-color: #fff;
+  position: relative;
+ 
+}
+.title{
+    margin-right: 100px;
+}
+h1{
+    font-size: 40px;
+}
+p{
+     font-family: 'Edu NSW ACT Cursive', cursive;
+    font-size: 20px;
+}
+.description{
+  /* border: 1px solid black; */
+  height: 30vh;
+  width: 80%;
+  text-align: center;
+  /* margin-top: 20vh; */
+  margin-right: 10vh;
+}
+#main-img{
+    position: absolute;
+    z-index: 20;
+    top:20%;
+    left: -35%;
+    width: 500px;
+}
+.btn-see{
+    background: transparent;
+    border: none;
+    margin-right: 100px;
+    margin-top: 7vh;
+    color: #fff;
+    font-size: larger;
+    padding: 15px 35px;
+    border-radius: 15px;
+    transition: 1s;
+    background-color: rgba(0,0,0,0.4);
+
+}
+.btn-see:hover{
+    background-color: black;
+    color: #fff;
+}
+#side-img-1{
+   width: 500px;
+   position: absolute;
+   z-index: 10;
+   top: 10%;
+   left: 15%;
+
+  
+}
+.compl{
+    z-index: 15;
+    color: black;
+   font-family: 'Cedarville Cursive', cursive;
+   font-size: 50px;
+   position: absolute;
+   top:20%;
+   left: 50%;
+   transform: rotateZ(-35deg);
+}

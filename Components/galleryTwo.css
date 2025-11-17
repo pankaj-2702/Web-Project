@@ -1,0 +1,87 @@
+
+.one1{
+    height: 100vh;
+    width: 100%;
+    color: #fff;
+    display: flex;
+    position: relative;
+}
+.left-section1{
+    width: 50%;
+    background-color: #fff;
+    position: relative;
+}
+.right-section1{
+ 
+   height: 100vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color:#ccd5ae ; */
+ 
+}
+.title1{
+    width: 70%;
+    margin-left: 10%;
+
+
+}
+h1{
+    font-size: 40px;
+    font-family: 'Edu NSW ACT Cursive', cursive;
+}
+p{
+    font-size: 20px;
+}
+.description1{
+  /* border: 1px solid black; */
+  height: 30vh;
+  width: 70%;
+  text-align: center;
+  /* margin-top: 20vh; */
+  margin-left: 28vh;
+}
+#main-img1{
+    position: absolute;
+    z-index: 20;
+    top:20%;
+    left: 53%;
+    width: 500px;
+}
+.btn-see1{
+    background: transparent;
+    border: none;
+    margin-right: 100px;
+    margin-top: 7vh;
+    color: #fff;
+    font-size: larger;
+    padding: 15px 35px;
+    border-radius: 15px;
+    transition: 1s;
+    background-color: rgba(0,0,0,0.4);
+
+}
+.btn-see1:hover{
+    background-color: black;
+    color: #fff;
+}
+#side-img-11{
+   width: 500px;
+   position: absolute;
+   z-index: 10;
+   top: 10%;
+   right: 20%;
+
+  
+}
+.compl1{
+    z-index: 15;
+    color: black;
+   font-family: 'Cedarville Cursive', cursive;
+   font-size: 50px;
+   position: absolute;
+   top:20%;
+   transform: rotateZ(-35deg);
+}
