@@ -23,7 +23,7 @@ function ReservationForm() {
     const doc = new jsPDF();
 
     
-    doc.addImage('images/logo-light.jpeg', 80, 10, 50, 30);
+    doc.addImage('/images/logo-light.jpeg', 80, 10, 50, 30);
 
     
     doc.setFont('helvetica', 'bold');
@@ -149,7 +149,7 @@ return (
       </div>
 
       <div className="diet-coke">
-        <img src="images/diet-coke-by-vivek.webp" alt="" id="diet-coke-img" />
+        <img src="/images/diet-coke-by-vivek.webp" alt="" id="diet-coke-img" />
         
         
       </div>

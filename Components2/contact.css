@@ -16,7 +16,7 @@
 }
 .middle{
     height: 40%;
-   background: url(images/contact-bg.webp);
+   background: url(/images/contact-bg.webp);
 }
 .bottom{
     padding-top: 50px;

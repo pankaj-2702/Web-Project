@@ -4,7 +4,7 @@ function Info(){
     return(
       <div className="info-box">
         <div className="demo-img">
-            <img src="images/pizza-image-1.png" alt="" id="img-sz" />
+            <img src="/images/pizza-image-1.png" alt="" id="img-sz" />
         </div>
         <div className="text-box">
              <button id="cross-btn">&#x2715;</button>
